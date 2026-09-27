@@ -51,8 +51,9 @@ yarn.lock
 # ide
 .idea
 
-# generated font subsets
-src/assets/fonts/.subset/
+# fonts: 原件由内容仓提供（内容仓 assets/fonts/ → 本仓 src/assets/fonts/），
+# 子集字体是构建期生成物。整个目录都归内容仓管，故整目录忽略。
+/src/assets/fonts/
 
 # generated local icon collection
 src/generated/local-icon-collections.ts
