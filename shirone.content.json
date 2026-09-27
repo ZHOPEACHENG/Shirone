@@ -1,0 +1,10 @@
+{
+	"schemaVersion": 1,
+
+	"source": {
+		"type": "path",
+		"path": "../my-blog-content"
+	},
+
+	"prune": true
+}
